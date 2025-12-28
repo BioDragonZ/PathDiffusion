@@ -9,7 +9,7 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # 2. Define Project Root (Assuming this script is in project_root/run/)
-# This replaces: SampleDir=/storage/.../FPdiffusion_ensemble
+# This replaces: SampleDir=/storage/.../PathDiffusion
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
 # 3. Input Arguments
@@ -33,7 +33,7 @@ Threads=10
 
 # Print Configuration
 echo "=========================================================="
-echo "Running FPdiffusion Pipeline"
+echo "Running PathDiffusion Pipeline"
 echo "Project Root : $PROJECT_ROOT"
 echo "Script Dir   : $SCRIPT_DIR"
 echo "Output Dir   : $TestDir"
