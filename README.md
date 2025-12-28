@@ -1,13 +1,13 @@
-# FPdiffusion
+# PathDiffusion
 ## Installation
 ```bash
 # clone project
-git clone https://github.com/YangLab-SDU/FPdiffusion.git
-cd FPdiffusion
+git clone https://github.com/YangLab-SDU/PathDiffusion.git
+cd PathDiffusion
 
 # create conda virtual environment
 conda env create -f env.yml
-conda activate FPdiffusion
+conda activate PathDiffusion
 
 # install openfold
 git clone https://github.com/aqlaboratory/openfold.git
