@@ -1,4 +1,6 @@
 # PathDiffusion
+![Uploading lv_0_20251229211927.gif…]()
+
 ## Installation
 ```bash
 # clone project
