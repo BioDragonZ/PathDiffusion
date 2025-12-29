@@ -1,5 +1,7 @@
 # PathDiffusion
-![Uploading lv_0_20251229211927.gif…]()
+![lv_0_20251229211927](https://github.com/user-attachments/assets/2a24d2a4-db97-4e29-8bd2-35670599796f)
+![lv_0_20251229211821](https://github.com/user-attachments/assets/dcded15f-e2fd-4355-902e-59dbf7f51786)
+
 
 ## Installation
 ```bash
