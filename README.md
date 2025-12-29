@@ -1,6 +1,8 @@
 # PathDiffusion
-![lv_0_20251229211927](https://github.com/user-attachments/assets/9cf70878-bce9-4b5a-92fc-5d44c08c2e7d) ![lv_0_20251229215126](https://github.com/user-attachments/assets/504e9590-7f01-40bc-b19a-694eef758129)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9cf70878-bce9-4b5a-92fc-5d44c08c2e7d" width="45%" />
+  <img src="https://github.com/user-attachments/assets/504e9590-7f01-40bc-b19a-694eef758129" width="45%" />
+</div>
 
 ## Installation
 ```bash
