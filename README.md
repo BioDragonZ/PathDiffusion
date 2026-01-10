@@ -6,14 +6,6 @@ PathDiffusion is a software that automatically predicts protein folding pathways
 It comprises two main modules: the first module focuses on preparing position-specific noise schedules (PSNS), and the second module iteratively generates the folding pathway using PSNS-guided diffusion models.
 
 <div align=center><img src="example/figure/framework.jpg" width="100%" height="100%"/></div>
-<div align="center">
-  <img src="example/gif/1AB7_A.gif" width="45%" />
-  <img src="example/gif/1OT8_A.gif" width="45%" />
-</div>
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/9cf70878-bce9-4b5a-92fc-5d44c08c2e7d" width="45%" />
-  <img src="https://github.com/user-attachments/assets/504e9590-7f01-40bc-b19a-694eef758129" width="45%" />
-</div>
 
 ## Installation
 ```bash
@@ -79,6 +71,12 @@ Example:
 ```bash
 bash run/PathDiffusion.sh ./example 1AB7_A
 ```
+
+<div align="center">
+  <img src="example/gif/1AB7_A.gif" width="45%" />
+  <img src="example/gif/1OT8_A.gif" width="45%" />
+</div>
+
 
 ## Contact
 For questions or issues, please open an issue on this repository.
