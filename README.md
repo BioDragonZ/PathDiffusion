@@ -7,6 +7,10 @@ It comprises two main modules: the first module focuses on preparing position-sp
 
 <div align=center><img src="example/figure/framework.jpg" width="100%" height="100%"/></div>
 <div align="center">
+  <img src="example/gif/1AB7_A.gif" width="45%" />
+  <img src="example/gif/1OT8_A.gif" width="45%" />
+</div>
+<div align="center">
   <img src="https://github.com/user-attachments/assets/9cf70878-bce9-4b5a-92fc-5d44c08c2e7d" width="45%" />
   <img src="https://github.com/user-attachments/assets/504e9590-7f01-40bc-b19a-694eef758129" width="45%" />
 </div>
@@ -27,7 +31,7 @@ pip install -e openfold
 ```
 
 ## Datasets Preparation
-We train PathDiffusion using protein structures from the [Protein Data Bank](https://www.rcsb.org/) (for conditional generation) and the IDRome database (for unconditional generation). Details on dataset preparation can be found in the datasets folder.
+We train PathDiffusion using protein structures from the [Protein Data Bank](https://www.rcsb.org/) (for conditional generation) and the [IDRome database](https://sid.erda.dk/sharelink/AVZAJvJnCO) (for unconditional generation). Details on dataset preparation can be found in the datasets folder.
 The following datasets and pre-computed representations are required:
 1. RCSB PDB Dataset: See `datasets/rcsb` for details on downloading and processing structured proteins. Once prepared, specify the `csv_path` and `data_dir` in the configuration file `settings/cond_model.yaml`.
 2. MSA and MSTA Generation: After preparing the RCSB dataset, you must generate Multiple Sequence Alignments (MSA) and Multiple Structural Alignments (MSTA) for each protein. Scripts for this process are located in the `run/` directory. Once generated, specify the `msta_dir` in the configuration file `settings/cond_model.yaml`.
