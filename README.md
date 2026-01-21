@@ -81,5 +81,20 @@ bash run/PathDiffusion.sh ./example 1AB7_A
 
 We would like to express our gratitude to the authors of **ConfDiff** for their excellent open-source work. Our codebase is built upon and inspired by the [ConfDiff repository](https://github.com/bytedance/ConfDiff).
 
+
+## Citation 
+
+If you use PathDiffusion in your research or work, please cite our publication: 
+
+```
+@article {Zhao2026PathDiffusion,
+	title = {PathDiffusion: modeling protein folding pathway using evolution-guided diffusion},
+	author = {Kailong Zhao, Chenxiao Xiang, Bin Cheng, Yunyun Shen, Wenkai Wang, Shuyun Chen, Baoquan Su, Guijun Zhang, Zhenling Peng, and Jianyi Yang},
+	journal = {bioRxiv},
+	year = {2026},
+	doi = {10.64898/2026.01.16.699856}
+}
+```
+
 ## Contact
 For questions or issues, please open an issue on this repository.
